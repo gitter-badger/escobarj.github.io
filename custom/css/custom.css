@@ -14,6 +14,13 @@
   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
+.jumbotron h1 {
+  color: white;
+  font-size: 140px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
 /* Colored background block */
 .full-block {
   background-color: #f6f6f6; /*#efefef;*/
@@ -41,9 +48,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.navbar-custom {
+/*.navbar-custom {
   background-color: #222222;
-}
+}*/
 
 body {
   padding-top: 50px;
