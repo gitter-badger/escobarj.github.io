@@ -1,5 +1,6 @@
 .jumbotron {
-  background: linear-gradient(#1e76b7, #387d98);
+  /*background: linear-gradient(#1e76b7, #387d98);*/
+  background-color: #34495e;
   background-size: cover;
   color: #ffffff;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
@@ -24,6 +25,13 @@
 
 h3 {
   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
 }
 
 /* Custom container */
