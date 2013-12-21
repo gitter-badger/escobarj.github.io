@@ -21,15 +21,15 @@
 
 /* Custom container */
 .container-full {
-  /*	text-align: center;*/
+  /*  text-align: center;*/
   margin: 0 auto;
   width: 100%;
 }
 
 .navbar-custom {
-    background-color:#3f3f3f;
+  background-color:#3f3f3f;
 }
 
 body {
-        padding-top: 50px;
+  padding-top: 50px;
 }
