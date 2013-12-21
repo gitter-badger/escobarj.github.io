@@ -14,7 +14,7 @@
       <ul class="nav navbar-nav">
         <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
 
-        <li{% if page.slug == "home" %} class="active"{% endif %}><a href="{{ page.base_url }}index.html">Home</a></li>
+        <li><a href="{{ page.base_url }}index.html">{% if page.slug == "home" %}<strong>Home</strong>{% else %}Home{% endif %}</a></li>
         <li{% if page.slug == "overview" %} class="active"{% endif %}><a href="{{ page.base_url }}overview.html">Overview</a></li>
         <li{% if page.slug == "documentation" %} class="active"{% endif %}><a href="{{ page.base_url }}documentation.html">Documentation</a></li>
         <li><a href="https://github.com/escobarj/escobarj.github.io">View on GitHub</a></li>
