@@ -1,6 +1,5 @@
 .jumbotron {
-  /*background-color: #1e76b7;*/
-  background: linear-gradient (#138060, #072d52); /*(#1e76b7, #387d98)*/
+  background: linear-gradient (#13805f, #2E5B84); 
   background-size: cover;
   color: #ffffff;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
