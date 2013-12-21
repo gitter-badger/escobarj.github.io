@@ -5,36 +5,45 @@ slug: home
 base_url: "./"
 ---
 
-<div class="container" id="content">
+<div class="container-full" id="content">
 
   <!-- Jumbotron -->
-  <div class="jumbotron" >
-  	<img src="{{ page.base_url }}images/MPLogo_large.png" alt="MacPatch" class="center-block">
-    <h1>MacPatch</h1>
-    <h2>Enterprise Mac management tool</h2>
-    <br>
-    <p class="lead">MacPatch offers features and functionality that provide Mac OS X administrators with best possible patching solution to meet the challenges of supporting Mac OS X in the enterprise</p>
-    <p><a class="btn btn-lg btn-success" href="https://github.com/escobarj/escobarj.github.io" role="button">MacPatch on GitHub</a></p>
-  </div>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="./images/MPLogo_large.png" alt="MacPatch" class="center-block">
+        <h1>MacPatch</h1>
+        <h2>Enterprise Mac management tool</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <p class="lead">MacPatch offers features and functionality that provide Mac OS X administrators with best possible patching solution to meet the challenges of supporting Mac OS X in the enterprise</p>
+        <p><a class="btn btn-lg btn-success" href="https://github.com/escobarj/escobarj.github.io" role="button">MacPatch on GitHub</a></p>
+      </div>
+    </div>
+  </div> <!-- /jumbotron -->
 
-  <!-- Example row of columns -->
-  <div class="row" style="background-color: #323034; padding-bottom: 3em; margin: 0 auto; width: 100%;">
-  	<div class="col-lg-4">
-  	<h2>Patch Management</h2>
-  	  <p>Apple and custom patching.</p>
-	  <!-- <a class="btn btn-primary" href="https://github.com/escobarj/escobarj.github.io" role="button">View details</a></p> -->
-  	</div>
-    <div class="col-lg-4">
-      <h2>Inventory</h2>
-      <p>Colect inventory data for your entire Mac fleet.</p>
-      <p>
+  <div class="full-block">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-2">
+      <h2><span class="glyphicon glyphicon-download"></span> Patch Management</h2>
+        <p>Delpy Apple and third party patch content.</p>
       <!-- <a class="btn btn-primary" href="https://github.com/escobarj/escobarj.github.io" role="button">View details</a></p> -->
-   </div>
-    <div class="col-lg-4">
-      <h2>Software Catalog</h2>
-      <p>Users can self install software from a catalog.</p>
-      <p>
-      <!-- <a class="btn btn-primary" href="https://github.com/escobarj/escobarj.github.io" role="button">View details</a></p> -->
+      </div>
+      <div class="col-md-3">
+        <h2><span class="glyphicon glyphicon-stats"></span> Inventory</h2>
+        <p>Collect inventory data on your entire Mac fleet.</p>
+        <p>
+        <!-- <a class="btn btn-primary" href="https://github.com/escobarj/escobarj.github.io" role="button">View details</a></p> -->
+     </div>
+      <div class="col-md-3">
+        <h2><span class="glyphicon glyphicon-book"></span> Software Catalog</h2>
+        <p>Users can self install software from your list of approved packages.</p>
+        <p>
+        <!-- <a class="btn btn-primary" href="https://github.com/escobarj/escobarj.github.io" role="button">View details</a></p> -->
+      </div>
     </div>
   </div>
+
 </div> <!-- /container -->

@@ -1,9 +1,35 @@
-/* Main marketing message and sign up button */
 .jumbotron {
+  background-color: #1e76b7;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
   text-align: center;
-  background-color: transparent;
+  margin-bottom:0;
 }
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+/* Colored background block */
+.full-block {
+  background-color: #efefef;
+  background-size: cover;
+  color: #3f3f3f;
+}
+
+/* Custom container */
+.container-full {
+  /*	text-align: center;*/
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navbar-custom {
+    background-color:#3f3f3f;
+}
+
+body {
+        padding-top: 50px;
 }
