@@ -35,7 +35,7 @@ h3 {
 }
 
 .navbar-custom {
-  background-color:#3f3f3f;
+  background-color: #222222;
 }
 
 body {
@@ -43,6 +43,7 @@ body {
 }
 
 footer {
+  background-color: #222222;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -52,7 +53,7 @@ footer {
   padding-bottom: 50px;
 }
 
-.centered{
+.centered {
     float: none;
     margin: 0 auto;
 }
