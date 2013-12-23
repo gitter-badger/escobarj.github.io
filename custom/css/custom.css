@@ -18,10 +18,10 @@
 
 .jumbotron h1 {
   color: white;
-  font-size: 97px;
+  font-size: 70px;
   font-weight: 300;
-  line-height: 90px;
-  letter-spacing: 3px;
+  /*line-height: 90px;*/
+  /*letter-spacing: 3px;*/
 }
 
 /* Colored background block */
